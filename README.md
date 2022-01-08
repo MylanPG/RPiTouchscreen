@@ -1,7 +1,7 @@
 # RPiTouchscreen
 Config file for Raspberry Pi Touchscreen
 
-This is the code I added to config.txt to allow an LCD Touchscreen to work on a Raspberry Pi running Kali Linux.
+This is the code I added to config.txt to allow an LCD Touchscreen to work on a Raspberry Pi running Kali Linux. The original code suggested by the manufacturer was buggy and crashed the system leading to kernel errors. After tweaking and messing with the settings, this is what worked.
 
 ```
 hdmi_group=2
